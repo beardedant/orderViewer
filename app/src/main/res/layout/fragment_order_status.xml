@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/small_margin"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_order_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/input_order_number"
+        android:textSize="@dimen/medium_text_size" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_check_order_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_order" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_margin"
+        android:gravity="center"
+        android:text="@string/order_number"
+        android:textSize="@dimen/medium_text_size" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_order_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:gravity="center"
+        android:text="@string/order_data"
+        android:textSize="@dimen/medium_text_size" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_order_sqrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:gravity="center"
+        android:text="@string/order_SQRT"
+        android:textSize="@dimen/medium_text_size" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_order_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:gravity="center"
+        android:text="@string/order_status"
+        android:textSize="@dimen/big_text_size"
+        android:textStyle="bold" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

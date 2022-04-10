@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">orderViewer</string>
+    <string name="order_number">номер заказа</string>
+    <string name="check_order">проверить заказ</string>
+    <string name="input_order_number">введите номер заказа</string>
+    <string name="order_data">дата оформления заказа</string>
+    <string name="order_SQRT">площадь конструкций</string>
+    <string name="order_status">статус заказа</string>
+</resources>
